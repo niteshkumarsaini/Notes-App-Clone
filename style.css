@@ -1,0 +1,307 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    margin: 0px 0px;
+    display: flex;
+    background-color: #f0a30ac5;
+    height: 68px;
+
+
+}
+header i,h1{
+    font-size: 30px;
+    margin: 0px 6px;
+    margin-top: 15px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+header i{
+    margin-top: 18px;
+    font-size: 32px;
+
+
+    
+
+}
+/* span{
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 1px;
+} */
+ul{
+    display: flex;
+    
+}
+
+
+.div{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+
+    background-color:rgb(255, 196, 0);
+    
+}
+span,i{
+    font-size: 23px;
+    margin-top: 15px;
+    margin-left: 17px;
+}
+.div:hover{
+    width: 162px;
+    position: relative;
+    transition: width 1s;
+   
+
+    
+
+}
+#aside{
+    /* border: 2px solid black; */
+    width: 98px;
+    margin-right: 90px;
+    font-size: 17.2px;
+  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+span{
+    font-size: 18px;
+
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    height: 20px;
+    width: 88px;
+    margin-top: 13px;
+    margin-left: 15px;
+    margin-right: 35px;
+   
+
+
+    
+}
+.div{
+    display: flex;
+}
+section{
+    margin-top: 5px;
+   
+    height: 60px;
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 10px;
+    margin-left: 89vw;
+}
+.note{
+   
+    height: 310px;
+    width: 300px;
+    margin: 40px 15px;
+    margin-left: 48px;
+    border: 2px solid black;
+    border-radius: 40px;
+
+}
+.operation{
+    height: 30px;
+    width: 108px;
+    display: block;
+    /* margin: 9px 0px; */
+    margin-top: 14px;
+    float: right;
+    margin-right: 10px;
+    /* border: 2px solid black; */
+}
+#edit{
+    margin: 0px 10px;
+    margin-top: 5px;
+    color: green;
+    cursor: pointer;
+}
+#delete{
+color: rgba(255, 0, 0, 0.793);
+margin:  0px 20px;
+margin-top: 5px;
+cursor: pointer;
+overflow: hidden;
+}
+#edit:hover{
+    color: rgba(32, 202, 32, 0.474);
+    transform: scale(1.2);
+    
+    
+}
+#delete:hover{
+    color: rgba(232, 13, 13, 0.874);
+    transform: scale(1.2)
+
+}
+#label{
+    /* border: 2px solid black; */
+    width: 100px;
+
+}
+.highlighter{
+  /* border: 2px solid black;
+  width: 30px;
+  margin-left: 173px;
+  overflow: hidden;
+ position: relative;
+  overflow-wrap: normal;  
+   */
+  margin: 1px 9px;
+  /* /* margin-left: 8px; */
+  
+
+
+}
+#ed1{
+    margin-left: 2px;
+}
+#del1{
+    margin-left: 40px;
+}
+#high{
+    display: flex;
+height: 20px;
+width: 90px;
+margin: 2px 10px;
+margin-top: 20px;
+margin-left: 175px;
+/* overflow: hidden;
+position: relative; */
+/* border: 2px solid black; */
+}
+.outer{
+    height: 70px;
+    width: 285px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    position: relative;
+}
+#textarea{
+       /* margin-left: 5px; */
+       border-radius: 20px;
+       cursor: pointer;
+       margin-top: -73px;
+       /* border: none; */
+       /* padding: 0px 3px; */
+       padding-top: 55px;
+       font-size: 15px;
+       line-height: 25px;
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-right: -10px;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 22px;
+       height: 255px;
+       width: 300px;
+       margin-left: -12px;
+       border: 2px solid black;
+       border-radius: 40px;
+       /* margin: 50px 10px; */
+       /* color: red; */
+       font-size: 15px;
+       resize: none;
+}
+
+
+
+
+#sec{
+    display: flex;
+    /* max-width: 99vw;
+  height: 614px;
+  
+    border: 2px solid black; */
+    /* position: relative;
+    overflow-wrap: normal; */
+    flex-direction: row;
+    /* margin-left: 20px;
+    margin:; */
+    flex-wrap: wrap;
+    
+}
+.hidden{
+    display: none;
+}
+.main{
+    height: 255px;
+    width: 285px;
+    padding-left: 10px;
+    font-size: 15px;
+    padding-top: -12px;
+
+}
+textarea:active{
+    font-size: 15px;
+
+}
+
+
+@media only screen and (max-width:1310px )and (min-width:300px){
+body{
+ display: flex;
+ /* flex-wrap: nowrap;
+ flex-shrink: auto; */
+
+} 
+header{
+ max-width: 1301px;
+ flex-wrap: auto;
+}
+/* .div{
+    background-color: red;
+} */
+    
+section{
+    /* background-color: red;
+     */
+     position: relative;
+     
+     /* top:75px; */
+
+     margin: 0px 0px;
+    
+    
+}
+
+
+
+
+}
+
+@media only screen and (max-width:425px){
+.note{
+    /* margin: 0px 0px; */
+    margin-left: 30px;
+    margin-top: 40px;
+  
+
+}
+textarea{
+max-height: 200px;
+max-width: 250px;
+/* margin: 0px 18px; */
+}
+.note{
+    max-height: 200px;
+    max-width: 250px;
+}
+
+#sec{
+    margin-top: -30px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+}
